@@ -120,7 +120,7 @@ resource "azurerm_virtual_machine" "catapp" {
   
   tags = {
     Billable = true
-    #Department = "devops"
+    Department = "devops"
   }
 }
 
